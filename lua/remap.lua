@@ -11,3 +11,6 @@ vim.keymap.set("i", "<C-s>", "<C-o>:w<CR>")
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 vim.keymap.set("v", "<C-s>", "<C-c>:w<CR>")
 
+-- Remap <CTRL>c for copy in visual mode.
+vim.keymap.set("v", "<C-c>", '"+y')
+
